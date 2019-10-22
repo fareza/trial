@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    String str,str1;
+    Scanner in=new Scanner(System.in);
+    str=in.nextLine();
+    str1=str.replaceAll("[AaEeIiOoUu]","z");
+    System.out.println(str1);
+  }
+}
